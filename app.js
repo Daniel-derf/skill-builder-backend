@@ -101,18 +101,6 @@ app.post('/user/login', async (req, res) => {
     }
 });
 
-app.get('/user/:id', checkToken, async (req, res) => {
-    const id = req.userId
-
-    const user = await User.findById(id, '-password');
-
-    if (!user) {
-        return res.status(404).json({ msg: 'User not found' });
-    }
-
-    return res.status(200).json({ user });
-});
-
 app.get('/user/me', checkToken, async (req, res) => {
     const id = req.params.id;
 
@@ -254,6 +242,7 @@ app.post('/interest/:id/task/:taskId/finish', checkToken, async (req, res) => {
         return res.status(500).json({ message: 'Server error' });
     }
 });
+
 
 function checkToken(req, res, next) {
     const authHeader = req.headers['authorization'];
