@@ -101,6 +101,18 @@ app.post('/user/login', async (req, res) => {
     }
 });
 
+app.get('/user/:id', checkToken, async (req, res) => {
+    const id = req.userId
+
+    const user = await User.findById(id, '-password');
+
+    if (!user) {
+        return res.status(404).json({ msg: 'User not found' });
+    }
+
+    return res.status(200).json({ user });
+});
+
 app.get('/user/me', checkToken, async (req, res) => {
     const id = req.params.id;
 
