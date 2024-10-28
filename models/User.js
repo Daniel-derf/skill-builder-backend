@@ -1,13 +1,15 @@
-const mongoose = require("mongoose")
+const mongoose = require("mongoose");
 
-const User = mongoose.model('User', {
-    name: String,
-    email: String,
-    password: String,
-    level: Number,
-    xp: Number,
-    interests: Array
-})
+// Modelo de usuário
+const UserSchema = new mongoose.Schema({
+    name: { type: String, required: true },
+    email: { type: String, required: true, unique: true }, // Adicionando unique para evitar emails duplicados
+    password: { type: String, required: true },
+    xp: { type: Number, default: 0 }, // Define um valor padrão para xp
+    interests: { type: Map, of: [String] } // Mantém como Map, mas com valores que são arrays de strings
+});
 
-module.exports = User
+// Cria o modelo User
+const User = mongoose.model('User', UserSchema);
 
+module.exports = User;

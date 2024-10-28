@@ -1,0 +1,132 @@
+{
+    "interests": [
+        {
+            "id": 1,
+            "name": "Programming",
+            "tasks": [
+                { "id": 1, "title": "Learn JavaScript", "description": "Complete a basic JavaScript tutorial", "xp": 100 },
+                { "id": 2, "title": "Create API in Node", "description": "Develop a simple REST API using Node.js", "xp": 200 },
+                { "id": 3, "title": "Study React", "description": "Learn the fundamentals of React and create a simple app", "xp": 150 },
+                { "id": 4, "title": "Explore Python", "description": "Complete an introductory course on Python", "xp": 120 },
+                { "id": 5, "title": "Develop a Django project", "description": "Build a web application using Django", "xp": 250 },
+                { "id": 6, "title": "Learn Git", "description": "Understand the basics of version control with Git", "xp": 80 },
+                { "id": 7, "title": "Contribute to an Open Source Project", "description": "Find an open-source project and contribute to it", "xp": 300 },
+                { "id": 8, "title": "Build a Personal Website", "description": "Create a personal portfolio website", "xp": 200 },
+                { "id": 9, "title": "Master CSS", "description": "Learn advanced CSS techniques for styling web pages", "xp": 150 },
+                { "id": 10, "title": "Attend a Coding Bootcamp", "description": "Participate in an intensive coding bootcamp", "xp": 500 }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Music",
+            "tasks": [
+                { "id": 1, "title": "Learn Guitar", "description": "Practice basic chords on the guitar", "xp": 50 },
+                { "id": 2, "title": "Compose a Song", "description": "Write lyrics and a melody", "xp": 150 },
+                { "id": 3, "title": "Play a Popular Song", "description": "Learn to play 'Wonderwall' on guitar", "xp": 75 },
+                { "id": 4, "title": "Study Music Theory", "description": "Understand the fundamentals of music theory", "xp": 100 },
+                { "id": 5, "title": "Participate in a Jam Session", "description": "Play with other musicians in an improvisational session", "xp": 200 },
+                { "id": 6, "title": "Learn to Read Sheet Music", "description": "Understand how to read and write sheet music", "xp": 120 },
+                { "id": 7, "title": "Record a Demo", "description": "Record a demo of your music", "xp": 300 },
+                { "id": 8, "title": "Attend a Music Workshop", "description": "Learn new techniques from experienced musicians", "xp": 200 },
+                { "id": 9, "title": "Explore Different Genres", "description": "Listen to and study various music genres", "xp": 90 },
+                { "id": 10, "title": "Perform Live", "description": "Play a live set in front of an audience", "xp": 400 }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Sports",
+            "tasks": [
+                { "id": 1, "title": "Learn Basketball", "description": "Practice shooting and dribbling skills", "xp": 80 },
+                { "id": 2, "title": "Run a 5K", "description": "Train to complete a 5K race", "xp": 150 },
+                { "id": 3, "title": "Practice Yoga", "description": "Engage in a 30-minute yoga session", "xp": 60 },
+                { "id": 4, "title": "Play a Soccer Match", "description": "Join friends for a friendly soccer game", "xp": 90 },
+                { "id": 5, "title": "Train for Weightlifting", "description": "Complete a weightlifting workout", "xp": 120 },
+                { "id": 6, "title": "Join a Sports Team", "description": "Sign up for a local sports team", "xp": 200 },
+                { "id": 7, "title": "Try a New Sport", "description": "Learn the basics of a sport you've never played", "xp": 100 },
+                { "id": 8, "title": "Complete a Fitness Challenge", "description": "Participate in a 30-day fitness challenge", "xp": 250 },
+                { "id": 9, "title": "Attend a Sports Event", "description": "Watch a local sports game", "xp": 50 },
+                { "id": 10, "title": "Volunteer at a Sports Camp", "description": "Help out at a youth sports camp", "xp": 150 }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Art",
+            "tasks": [
+                { "id": 1, "title": "Paint a Canvas", "description": "Create a piece of art using watercolors", "xp": 200 },
+                { "id": 2, "title": "Make a Sculpture", "description": "Mold a sculpture out of clay", "xp": 250 },
+                { "id": 3, "title": "Participate in an Art Exhibition", "description": "Display your artwork in a gallery", "xp": 300 },
+                { "id": 4, "title": "Learn to Draw", "description": "Complete a basic drawing course", "xp": 150 },
+                { "id": 5, "title": "Visit Art Museums", "description": "Explore art exhibitions in your city", "xp": 50 },
+                { "id": 6, "title": "Create Digital Art", "description": "Use software to create digital illustrations", "xp": 180 },
+                { "id": 7, "title": "Take a Photography Class", "description": "Learn photography techniques", "xp": 120 },
+                { "id": 8, "title": "Experiment with Street Art", "description": "Try your hand at graffiti art", "xp": 200 },
+                { "id": 9, "title": "Join an Art Community", "description": "Connect with other artists and share work", "xp": 90 },
+                { "id": 10, "title": "Create a Mixed Media Project", "description": "Combine different artistic techniques in one piece", "xp": 250 }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Cooking",
+            "tasks": [
+                { "id": 1, "title": "Learn to Cook Italian Dishes", "description": "Make pasta and sauce from scratch", "xp": 100 },
+                { "id": 2, "title": "Bake a Cake", "description": "Prepare a chocolate cake", "xp": 80 },
+                { "id": 3, "title": "Explore Asian Cuisine", "description": "Cook a typical Thai dish", "xp": 120 },
+                { "id": 4, "title": "Create Healthy Recipes", "description": "Develop a week's worth of healthy meal ideas", "xp": 150 },
+                { "id": 5, "title": "Attend a Cooking Workshop", "description": "Learn new culinary techniques from a chef", "xp": 200 },
+                { "id": 6, "title": "Make Homemade Bread", "description": "Try baking different types of bread", "xp": 100 },
+                { "id": 7, "title": "Host a Dinner Party", "description": "Prepare a meal for friends or family", "xp": 150 },
+                { "id": 8, "title": "Experiment with Baking", "description": "Try making pastries or desserts", "xp": 200 },
+                { "id": 9, "title": "Learn Food Photography", "description": "Capture and style food for photos", "xp": 120 },
+                { "id": 10, "title": "Understand Nutrition Basics", "description": "Study the fundamentals of nutrition", "xp": 90 }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Photography",
+            "tasks": [
+                { "id": 1, "title": "Learn to Use a DSLR Camera", "description": "Take a basic photography course", "xp": 100 },
+                { "id": 2, "title": "Conduct a Photoshoot", "description": "Capture portraits of friends", "xp": 80 },
+                { "id": 3, "title": "Explore Landscape Photography", "description": "Photograph nature in a local park", "xp": 120 },
+                { "id": 4, "title": "Edit Photos", "description": "Learn to use photo editing software", "xp": 150 },
+                { "id": 5, "title": "Participate in a Photography Contest", "description": "Submit your photos to a competition", "xp": 200 },
+                { "id": 6, "title": "Create a Photography Portfolio", "description": "Compile your best work into a portfolio", "xp": 250 },
+                { "id": 7, "title": "Experiment with Different Styles", "description": "Try various photography techniques", "xp": 150 },
+                { "id": 8, "title": "Learn about Lighting Techniques", "description": "Understand the importance of lighting in photography", "xp": 100 },
+                { "id": 9, "title": "Attend a Photography Workshop", "description": "Learn from professional photographers", "xp": 200 },
+                { "id": 10, "title": "Document a Day in Your Life", "description": "Capture moments throughout a day", "xp": 90 }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Travel",
+            "tasks": [
+                { "id": 1, "title": "Plan a Trip", "description": "Organize all details for a weekend getaway", "xp": 100 },
+                { "id": 2, "title": "Explore a New City", "description": "Visit local tourist attractions", "xp": 200 },
+                { "id": 3, "title": "Create a Travel Photo Album", "description": "Compile memories from your travels", "xp": 150 },
+                { "id": 4, "title": "Participate in an Exchange Program", "description": "Live in another country for a period", "xp": 300 },
+                { "id": 5, "title": "Create a Travel Journal", "description": "Document your experiences and reflections", "xp": 80 },
+                { "id": 6, "title": "Research Travel Destinations", "description": "Learn about potential places to visit", "xp": 90 },
+                { "id": 7, "title": "Try Local Cuisines", "description": "Experience the food culture of a new place", "xp": 150 },
+                { "id": 8, "title": "Meet New People While Traveling", "description": "Make connections with locals and fellow travelers", "xp": 120 },
+                { "id": 9, "title": "Take a Road Trip", "description": "Plan a driving adventure with friends", "xp": 200 },
+                { "id": 10, "title": "Volunteer Abroad", "description": "Engage in a volunteer project in a different country", "xp": 400 }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Technology",
+            "tasks": [
+                { "id": 1, "title": "Learn About Artificial Intelligence", "description": "Take an introductory course on AI", "xp": 150 },
+                { "id": 2, "title": "Explore Virtual Reality", "description": "Test VR games and applications", "xp": 100 },
+                { "id": 3, "title": "Build a Computer", "description": "Learn to select and assemble PC parts", "xp": 200 },
+                { "id": 4, "title": "Study Cybersecurity", "description": "Familiarize yourself with cybersecurity practices", "xp": 120 },
+                { "id": 5, "title": "Develop an App", "description": "Create a simple application for smartphones", "xp": 250 },
+                { "id": 6, "title": "Attend a Tech Conference", "description": "Network with professionals in the tech industry", "xp": 300 },
+                { "id": 7, "title": "Learn About Blockchain", "description": "Understand the basics of blockchain technology", "xp": 150 },
+                { "id": 8, "title": "Participate in a Hackathon", "description": "Join a coding competition to create a project", "xp": 400 },
+                { "id": 9, "title": "Experiment with IoT Devices", "description": "Build and connect Internet of Things gadgets", "xp": 200 },
+                { "id": 10, "title": "Master a Programming Language", "description": "Become proficient in a new programming language", "xp": 300 }
+            ]
+        }
+    ]
+}
