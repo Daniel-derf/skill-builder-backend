@@ -1,6 +1,7 @@
 const User = require('../models/User');
 const fs = require('fs').promises
 const bcrypt = require('bcrypt')
+const {increaseUserXP} = require('./userControllers')
 
 
 const getInterests = async (req, res) => {
@@ -91,7 +92,8 @@ const finishInterestTask = async (req, res) => {
             }
         }
 
-        user.xp += task.xp;
+        const xp = task.xp
+        increaseUserXP({userId, xp, res})
 
         if (!user.interests.has(id)) {
             user.interests.set(id, [taskId]); 
@@ -101,7 +103,7 @@ const finishInterestTask = async (req, res) => {
 
         await user.save();
 
-        return res.status(200).json({ message: 'Task marked as completed', interests: user.interests, userXp: user.xp });
+        return res.status(200).json({ message: 'Task completed successfully'});
     } catch (error) {
         console.error('Error completing task:', error);
         return res.status(500).json({ message: 'Server error' });

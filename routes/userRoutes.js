@@ -8,6 +8,6 @@ const router = express.Router()
 
 router.get('/me', checkToken, getLoggedUser);
 router.get('/:id', checkToken, getUserData);
-router.post('/:id/xp', checkToken, increaseUserXP);
+// router.post('/:id/xp', checkToken, increaseUserXP);
 
 module.exports = router;

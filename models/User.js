@@ -5,6 +5,8 @@ const UserSchema = new mongoose.Schema({
     email: { type: String, required: true, unique: true }, 
     password: { type: String, required: true },
     xp: { type: Number, default: 0 },
+    lastingXpToUp: { type: Number, default: 500 },
+    level: { type: Number, default: 0 },
     interests: { type: Map, of: [String] }
 });
 
